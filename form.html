@@ -1,0 +1,61 @@
+git remote add origin https://github.com/danielgil0911/homework2.git
+git branch -M main
+git push -u origin main
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="index.html">Main Page</a>
+    <h2>Form Page</h2>
+    <h4>Sign Up Here!</h4>
+    <form>
+      Name: <input type="text" name="name" required=""><br>
+      Password: <input type="password" name="pwd"><br>
+      Date of Birth: <input type="date" name="dob"> <br>
+      Email: <input type="email" name="email"> <br>
+      Phone: <input type="phone" name="phone"> <br>
+      <td valign="top">
+        Trainer:<br>
+        <select name="Trainer">
+          <option value="Mathtew Brill">Mathtew Brill</option>
+          <option value="Kyle Jeter">Kyle Jeter</option>
+          <option value="Adrian Sanchez">Adrian Sanchez</option>
+          <option value="Gloria Hernandez">Gloria Hernandez</option>
+          <option value="Gazel Rueda">Gazel Rueda</option>
+          <option value="Christian Uy">Christian Uy</option>
+        </select>
+        <br>
+        Type of Training<br>
+        <input type="checkbox" id="training1" name="training1" value="Weight Training">
+        <label for="training1"> Weight Training</label><br>
+        <input type="checkbox" id="training2" name="training2" value="Bodybuilding">
+        <label for="training2"> Bodybuilding</label><br>
+        <input type="checkbox" id="training3" name="training3" value="Powerlifting">
+        <label for="training3"> Powerlifting</label><br>
+      </td>
+      <table>
+        <tbody><tr>
+          <td valign="top">
+            Time:<br>
+            <select name="food">
+              <option value="Morning">Morning</option>
+              <option value="Afternoon">Afternoon</option>
+              <option value="Evening">Evening</option>
+            </select>
+          </td>
+          <td>
+            Payment:<br>
+              <input type="radio" name="pmt" value="cash" checked="">Cash<br>
+              <input type="radio" name="pmt" value="credit">Credit<br>
+              <input type="radio" name="pmt" value="debit">Debit
+          </td>
+          <td valign="top">
+          </td>          
+        </tr>
+      </tbody></table>
+      <input type="submit" value="Submit">   <input type="reset">
+    </form>
